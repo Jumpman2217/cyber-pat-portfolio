@@ -1,3 +1,7 @@
+---
+title: "How I Set Up My Cybersecurity Portfolio"
+layout: default
+---
 # How I Set Up My Cybersecurity Portfolio
 
 **When I started job hunting, I realized I needed a single, professional URL to showcase my security projects and streamline my outreach.** I wanted a secure domain, branded email, and a live site—all without spending days on setup.
