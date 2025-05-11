@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How I Set Up My Cybersecurity Portfolio</title>
+  <style>
+    body{font-family:system-ui;max-width:720px;margin:40px auto;line-height:1.5;}
+    h1, h2{margin-top:1.5em;}
+  </style>
+</head>
+<body>
+  <h1>How I Set Up My Cybersecurity Portfolio</h1>
+
+  <p><strong>When I started job hunting, I realized I needed a single, professional URL to showcase my security projects and streamline my outreach.</strong> I wanted a secure domain, branded email, and a live site—all without spending days on setup.</p>
+
+  <h2>Step 1: Register Domain & Enable 2FA</h2>
+  <p>I chose <code>cyber-pat.com</code> through Cloudflare Registrar for its wholesale pricing and simple dashboard. Immediately after purchase, I activated TOTP-based two-factor authentication on my Cloudflare account to protect against unauthorized changes. With nameservers pointed to Cloudflare, I could manage DNS and email routing in one place.</p>
+
+  <h2>Step 2: Configure Email Routing</h2>
+  <p>Using Cloudflare’s Email Routing feature, I created <code>me@cyber-pat.com</code> and forwarded it to my Gmail. Cloudflare automatically published SPF, DKIM, and DMARC records to prevent spoofing. A live test email and quick DNS check confirmed that my branded address was fully functional within minutes.</p>
+
+  <h2>Step 3: Launch GitHub Pages Site</h2>
+  <p>I initialized a public repo named <code>cyber-pat-portfolio</code> on GitHub, added an <code>index.html</code> landing page, and pointed the custom domain in the Pages settings. GitHub issued an SSL certificate, securing the site over HTTPS. Visitors now see my Bio, Contact, and project links live at <a href="https://cyber-pat.com">https://cyber-pat.com</a>.</p>
+
+  <h2>Key Takeaway</h2>
+  <p>Automating DNS, email, and hosting setup saves time and builds a strong security baseline. Securing your domain and communications early prevents headaches down the road and signals professionalism to recruiters.</p>
+
+  <p>Check out the full code and step-by-step instructions on GitHub: <a href="https://github.com/Jumpman2217/cyber-pat-portfolio">Jumpman2217/cyber-pat-portfolio</a></p>
+</body>
+</html>
